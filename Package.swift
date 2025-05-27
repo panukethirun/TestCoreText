@@ -22,15 +22,7 @@ let package = Package(
                 "FLAnimatedImage",
                 "DTCoreText"
             ],
-            path: "Sources",
-            publicHeadersPath: "include", // <<< ✅ จุดสำคัญสำหรับ Objective-C headers
-            cSettings: [
-                .headerSearchPath("."),
-                .define("SWIFT_PACKAGE")
-            ],
-            resources: [
-                .process("Resources")
-            ]
+            path: "Sources"
         )
     ]
 )
