@@ -22,7 +22,7 @@ let package = Package(
                 "FLAnimatedImage",
                 "DTCoreText"
             ],
-            path: "Sources/",
+            path: "Sources",
             publicHeadersPath: "include", // <<< ✅ จุดสำคัญสำหรับ Objective-C headers
             cSettings: [
                 .headerSearchPath("."),
