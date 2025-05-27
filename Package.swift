@@ -22,7 +22,8 @@ let package = Package(
                 "FLAnimatedImage",
                 "DTCoreText"
             ],
-            path: "Sources"
+            path: "Sources",
+            publicHeadersPath: "include"
         )
     ]
 )
